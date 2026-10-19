@@ -3,7 +3,7 @@ Proje Yazarı: Beyazıt_ÇALDAĞI
 # Proje Adı: Akıllı Hava Asistanı v1.0
 
 ## Projenin Amacı:
-Kullanıcılara sıcaklığa göre öneriler vermek.
+Kullanıcıya sıcaklığa göre öneriler vermek
 
 ## Projenin Hedefleri:
 * V1.0 Sıcaklık kontrolü

@@ -1,21 +1,26 @@
-
 Proje Yazarı: Beyazıt_ÇALDAĞI
-# Proje Adı: Akıllı Hava Asistanı v1.0
+# Proje Adı: Kod-Asistan Basit Kayıt 
 
 ## Projenin Amacı:
-Kullanıcıya sıcaklığa göre öneriler vermek
+Kullanıcıdan ad ve soyadı ayrı ayrı alıp birleştirerek tek bir profil kimliği oluşturmak
 
 ## Projenin Hedefleri:
-* V1.0 Sıcaklık kontrolü
-* V2.0 Hava önerileri
+* V1.0 Ad ve soyad alma
+* V2.0 Selamlama mesajı gösterme
 
-# Projenin Kapsamı: Hava durumu
+# Projenin Kapsamı: Kullanıcı kaydı
 
 BAŞLA
-sıcaklık oku (derece)
-EĞER sıcaklık < 10 YAZ "Kalın giyin"
-DEĞİLSE EĞER sıcaklık < 20 YAZ "Ceket giy"
-DEĞİLSE YAZ "Hava sıcak"
+ad oku
+soyad oku
+profil = ad + " " + soyad
+YAZ "Merhaba, " + profil
 DUR
 
-## Kaynakça: Programlama Temelleri,Hocamın Yaptığı Eski Kod
+## Akış Şeması:
+    basla([Başla]) --> ad[/Ad gir/]
+    ad --> soyad[/Soyad gir/]
+    soyad --> profil["profil = ad + soyad"]
+    profil --> yaz[/Merhaba profil yaz/]
+    yaz --> dur([Dur])
+## Kaynakça: Programlama Temelleri

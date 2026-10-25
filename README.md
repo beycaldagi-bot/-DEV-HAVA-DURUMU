@@ -1,26 +1,27 @@
-Proje Yazarı: Beyazıt_ÇALDAĞI
-# Proje Adı: Kod-Asistan Basit Kayıt 
+Proje Yazarı: Beyazıt Çaldağı
+
+# Proje Adı: Kullanıcı Bilgileri v1.0
 
 ## Projenin Amacı:
-Kullanıcıdan ad ve soyadı ayrı ayrı alıp birleştirerek tek bir profil kimliği oluşturmak
+Kullanıcıdan ad, soyad, yaş ve sınıf bilgilerini alarak ekranda göstermek.
 
-## Projenin Hedefleri:
-* V1.0 Ad ve soyad alma
-* V2.0 Selamlama mesajı gösterme
+## V1.0:
+Ad, soyad, yaş ve sınıf bilgileri girilir ve ekrana yazdırılır.
 
-# Projenin Kapsamı: Kullanıcı kaydı
+## V2.0:
+Okul numarası ekleme ve bilgilerin daha düzenli gösterilmesi planlanıyor.
 
-BAŞLA
-ad oku
-soyad oku
-profil = ad + " " + soyad
-YAZ "Merhaba, " + profil
-DUR
+Ne işe yaradığını @Derin araştırma
 
-## Akış Şeması:
-    basla([Başla]) --> ad[/Ad gir/]
-    ad --> soyad[/Soyad gir/]
-    soyad --> profil["profil = ad + soyad"]
-    profil --> yaz[/Merhaba profil yaz/]
-    yaz --> dur([Dur])
-## Kaynakça: Programlama Temelleri
+```python
+ad = input("Adınızı giriniz: ")
+soyad = input("Soyadınızı giriniz: ")
+yas = input("Yaşınızı giriniz: ")
+sinif = input("Sınıfınızı giriniz: ")
+
+print("Adınız:", ad)
+print("Soyadınız:", soyad)
+print("Yaşınız:", yas)
+print("Sınıfınız:", sinif)
+print("Bilgileriniz başarıyla alındı.")
+kaynakça:proglamla temelleri kitabı,CHATGPT,hocamın kodu
